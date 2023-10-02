@@ -2,13 +2,7 @@ const Form = () => {
 	return (
 		<div className="event-description">
 			<div id="discleimer">
-				<h2>
-					<img
-						src="../src/assets/mulher-balanca.jpg"
-						alt="mulher com a balança da justiça."
-					/>
-					AdVocate
-				</h2>
+				<h2>AdVocate</h2>
 				<p className="about-event">
 					Um evento para revolucionar a sua criatividade.
 				</p>
