@@ -1,0 +1,574 @@
+:root {
+	--primary: #eb1ccc;
+	--secundary: #95989a;
+	--text-color: #fff;
+	--text-secondary: #000;
+	--text-tertiary: #5d5d5d;
+}
+
+.event-description {
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+		url("./assets/vecteezy_justice.jpg");
+	background-position: center;
+	background-size: cover;
+	height: 90vh;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	color: var(--text-color);
+}
+
+#discleimer h2,
+#discleimer .event-date {
+	color: var(--primary);
+}
+#discleimer h2 {
+	font-size: 3.5em;
+	margin-bottom: 0.5em;
+}
+
+#discleimer .about-event {
+	font-size: 1.5em;
+	text-transform: uppercase;
+	max-width: 350px;
+	font-weight: bold;
+	margin-bottom: 1em;
+}
+#discleimer img {
+	margin: 0.2em;
+	margin-bottom: -0.2em;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	background-size: cover;
+	background-color: var(--primary);
+}
+#discleimer p {
+	font-size: 1.2em;
+	margin-bottom: 0.3em;
+}
+#discleimer .event-date {
+	font-weight: bold;
+}
+
+#subscription-form {
+	background-color: var(--secundary);
+	padding: 2em;
+	max-width: 23%;
+}
+#subscription-form p {
+	font-size: 1.7em;
+	color: var(--text-secondary);
+	margin-bottom: 1em;
+	font-weight: 500;
+}
+
+.form-group {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 0.8em;
+}
+
+.form-group label {
+	color: var(--text-tertiary);
+	margin-bottom: 0.3em;
+	font-weight: bold;
+}
+
+.form-group input,
+.form-group select {
+	padding: 6px 12px;
+	border-radius: 5px;
+	border: none;
+	outline: none;
+}
+
+.btn {
+	background-color: var(--primary);
+	color: var(--text-color);
+	text-transform: uppercase;
+	width: 100%;
+	border: none;
+	padding: 12px;
+	cursor: pointer;
+	opacity: 0.8;
+	border-radius: 5px;
+}
+.btn:hover {
+	opacity: 2;
+}
+
+.key-benefits h2 {
+	background-color: var(--secundary);
+	text-align: center;
+	padding: 2em;
+	font-weight: 500;
+}
+
+.benefits {
+	display: flex;
+	justify-content: space-around;
+	padding: 4em;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.benefit {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 20%;
+	color: var(--text-tertiary);
+}
+.benefit .benefit-img {
+	width: 250px;
+	height: 250px;
+	border-radius: 50%;
+	background-size: cover;
+	background-position: center;
+	margin-bottom: 1em;
+}
+#benefit-1 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+		url("./assets/pexels-mesa.jpg");
+}
+#benefit-2 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+		url("./assets/pexels-look-my-ayes.jpg");
+}
+#benefit-3 {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+		url("./assets/pexels-pavel-girl.jpg");
+}
+
+/*Location*/
+
+#location {
+	height: 500px;
+
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+		url("./assets/vecteezy_business.jpg");
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	color: var(--text-color);
+	margin-bottom: 3em;
+}
+
+#address,
+#about-location {
+	max-width: 30%;
+}
+#address {
+	display: flex;
+}
+.geolocation {
+	color: var(--primary);
+	font-size: 4em;
+	margin-right: 0.5em;
+}
+#address-details {
+	text-align: center;
+	font-size: 1.3em;
+}
+#about-location h3 {
+	color: var(--primary);
+	font-size: 2em;
+	margin-bottom: 1em;
+	text-transform: uppercase;
+}
+#about-location p {
+	line-height: 1.5em;
+}
+
+/*Details*/
+
+#details {
+	width: 80%;
+	margin: 0 auto;
+}
+.detail {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	gap: 5%;
+	margin-bottom: 4em;
+}
+.detail img {
+	width: 50%;
+}
+.detail h3 {
+	margin-bottom: 1em;
+	font-size: 2em;
+	font-weight: 500;
+}
+#detail-1 h3 {
+	font-size: 2.5em;
+	font-weight: 700;
+}
+.detail-description {
+	width: 100%;
+	padding-left: 2em;
+}
+.detail-description ul {
+	list-style-position: inside;
+}
+.detail-description ul li {
+	margin-bottom: 0.4em;
+}
+.detail-description ul li:last-child {
+	font-weight: bold;
+}
+
+/*CTA*/
+.cta {
+	height: 300px;
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+		url("./assets/vecteezy_justice.jpg");
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.cta h3 {
+	margin-bottom: 1.2em;
+	font-size: 2em;
+	font-weight: 500;
+	color: var(--text-color);
+}
+.cta .btn {
+	width: 20%;
+	margin: 0 auto;
+	font-weight: 600;
+	font-size: 1.3em;
+}
+
+/*FOOTER*/
+
+#footer {
+	text-align: center;
+	color: var(--secundary);
+	height: 250px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+#footer h3 {
+	font-size: 1.8em;
+	margin-bottom: 0.5em;
+}
+#footer img {
+	margin: 0.2em;
+	margin-bottom: -0.2em;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-size: cover;
+	background-color: var(--secundary);
+}
+
+#footer p:nth-child(2) {
+	margin-bottom: 1em;
+	font-size: 1.2em;
+}
+#footer span {
+	font-weight: bold;
+}
+
+/*Endpoin 768*/
+@media (max-width: 780px) {
+	#discleimer h2 {
+		font-size: 2.5em;
+	}
+
+	#discleimer h2,
+	#discleimer .event-date {
+		color: var(--primary);
+		max-width: 300px;
+	}
+
+	#discleimer .about-event {
+		font-size: 1em;
+		max-width: 300px;
+		margin-bottom: 1em;
+	}
+
+	.btn {
+		opacity: 1;
+		font-weight: bold;
+	}
+
+	#event-description {
+		flex-direction: column;
+		height: auto;
+	}
+
+	#discleimer h2 {
+		margin-bottom: 0.5em;
+	}
+
+	#event-description .about-event {
+		font-weight: bold;
+		font-size: 2em;
+	}
+
+	#subscription-form {
+		max-width: 70%;
+		margin-bottom: 2em;
+	}
+
+	/*Benefits section*/
+	.benefits {
+		flex-direction: column;
+		align-items: center;
+		width: auto;
+		padding: 2em;
+	}
+	.benefit {
+		max-width: 100%;
+		margin-bottom: 2em;
+	}
+	.benefit .benefit-img {
+		width: 250px;
+		height: 250px;
+		border-radius: 50%;
+		background-size: cover;
+		background-position: center;
+		margin-bottom: 1em;
+	}
+
+	/*Event Location*/
+	#location {
+		flex-direction: column;
+		height: auto;
+		text-align: center;
+		padding: 2em 0;
+	}
+	#address {
+		order: 2;
+		flex-direction: column;
+		max-width: 100%;
+	}
+
+	#address-details {
+		font-size: 1.3em;
+	}
+	#address i {
+		margin: 0.3em 0;
+	}
+
+	#about-location {
+		order: 1;
+		max-width: 100%;
+	}
+	#about-location h3 {
+		margin-bottom: 0;
+		font-size: 2em;
+	}
+
+	.geolocation {
+		font-size: 2.5em;
+	}
+
+	#about-location p {
+		display: none;
+	}
+
+	/*Event details container*/
+
+	.detail {
+		flex-direction: column;
+		margin-bottom: 0.5em;
+		gap: 0;
+	}
+	.detail-description {
+		font-size: 1em;
+		font-weight: 600;
+	}
+
+	#detail-1 h3 {
+		font-size: 3em;
+		font-weight: 700;
+	}
+
+	.detail img {
+		width: 100%;
+		margin: 2em 0;
+	}
+
+	#detail-1 img {
+		display: none;
+	}
+	#detail-3 img {
+		order: 2;
+	}
+	#detail-3 .detail-description {
+		order: 1;
+	}
+
+	/*Call to A ction Section*/
+	.cta {
+		text-align: center;
+		color: var(--text-color);
+	}
+
+	.cta .btn {
+		width: 40%;
+	}
+}
+
+/*Mobile*/
+
+@media (max-width: 450px) {
+	.event-description {
+		background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+			url("./assets/vecteezy_justice.jpg");
+		background-position: center;
+		background-size: cover;
+		height: 100%;
+		flex-direction: column;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: var(--text-color);
+	}
+
+	.btn {
+		opacity: 1;
+		font-weight: bold;
+	}
+
+	#event-description {
+		flex-direction: column;
+		height: auto;
+	}
+	#discleimer .event-date {
+		margin-bottom: 10px;
+	}
+
+	#discleimer h2 {
+		font-size: 2.5em;
+	}
+
+	#discleimer h2,
+	#discleimer .event-date {
+		color: var(--primary);
+		max-width: 300px;
+	}
+
+	#discleimer .about-event {
+		font-size: 1em;
+		max-width: 300px;
+		margin-bottom: 1em;
+	}
+
+	#subscription-form {
+		max-width: 90%;
+		margin-bottom: 2em;
+	}
+
+	/*Benefits section*/
+	.benefits {
+		flex-direction: column;
+		align-items: center;
+		width: auto;
+		padding: 2em;
+	}
+	.benefit {
+		max-width: 100%;
+		margin-bottom: 2em;
+	}
+
+	.benefit .benefit-img {
+		width: 200px;
+		height: 200px;
+		border-radius: 50%;
+		background-size: cover;
+		background-position: center;
+		margin-bottom: 1em;
+	}
+
+	/*Event Location*/
+	#location {
+		flex-direction: column;
+		height: auto;
+		text-align: center;
+		padding: 2em 0;
+	}
+	#address {
+		order: 2;
+		flex-direction: column;
+		max-width: 100%;
+	}
+
+	#address-details {
+		font-size: 1em;
+	}
+
+	#address i {
+		margin: 0.3em 0;
+	}
+
+	#about-location {
+		max-width: 100%;
+	}
+	#about-location h3 {
+		margin-bottom: 0;
+		font-size: 1.5em;
+	}
+	.geolocation {
+		font-size: 2.5em;
+	}
+
+	#about-location p {
+		display: none;
+	}
+
+	/*Event details container*/
+
+	.detail {
+		flex-direction: column;
+		margin-bottom: 0.5em;
+		gap: 0;
+	}
+
+	#detail-1 h3 {
+		font-size: 2em;
+		font-weight: 600;
+	}
+
+	.detail img {
+		width: 100%;
+		margin: 2em 0;
+	}
+
+	#detail-1 img {
+		display: none;
+	}
+	#detail-3 img {
+		order: 2;
+	}
+	#detail-3 .detail-description {
+		order: 1;
+	}
+	#detail-1 .detail-description h3 {
+		font-size: 2em;
+	}
+
+	/*Call to A ction Section*/
+	.cta {
+		text-align: center;
+		font-size: 0.8em;
+		color: var(--text-color);
+	}
+
+	.cta .btn {
+		width: 45%;
+		font-size: 1em;
+	}
+}
