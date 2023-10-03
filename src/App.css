@@ -307,13 +307,20 @@ span {
 
 .whats {
 	position: fixed;
-	bottom: 50px;
-	right: 50px;
+	bottom: 80px;
+	right: 60px;
 	z-index: 999;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	font-size: 1.5em;
 }
 
-.whats img {
-	width: 8em;
+.whats #img {
+	width: 7rem;
+	height: 7rem;
+	color: var(--primary);
 }
 
 /*Endpoin 780*/
@@ -680,8 +687,7 @@ span {
 		z-index: 999;
 	}
 
-	.whats img {
-		width: 8em;
-		background-image: url("./assets/whatsApp.png");
+	.whats .img {
+		width: 10em;
 	}
 }

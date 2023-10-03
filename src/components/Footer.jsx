@@ -1,4 +1,5 @@
 import image from "../assets/mulher-balanca.jpg";
+import { IoLogoWhatsapp } from "react-icons/io";
 
 const Footer = () => {
 	return (
@@ -18,11 +19,7 @@ const Footer = () => {
 					target="_blank"
 					rel="noreferrer"
 				>
-					<img
-						src="./src/assets/whatsApp.png"
-						alt="Fale conosco pelo whatsapp"
-						title="Fale conosco pelo whatsapp"
-					/>
+					<IoLogoWhatsapp id="img" />
 				</a>
 			</div>
 		</footer>
