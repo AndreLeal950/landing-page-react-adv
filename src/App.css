@@ -614,12 +614,13 @@ span {
 
 	#discleimer h2 {
 		font-size: 2em;
+		margin-left: 0.5em;
 	}
 
 	#discleimer h2,
 	#discleimer .event-date {
 		color: var(--primary);
-		max-width: 300em;
+		max-width: 320em;
 	}
 
 	#discleimer .button {
