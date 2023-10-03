@@ -6,13 +6,13 @@ import Location from "./components/Location";
 import Details from "./components/Details";
 import Cta from "./components/Cta";
 import Footer from "./components/Footer";
-import Navbar from "./components/Navbar";
+import NavBar from "./components/NavBar";
 
 function App() {
 	return (
 		<>
 			<body>
-				<Navbar />
+				<NavBar />
 				<Form />
 				<Benefits />
 				<Location />

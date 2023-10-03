@@ -10,7 +10,7 @@ const Location = () => {
 				<div id="address-details">
 					<h3>Nosso Escritório fica localizado:</h3>
 					<p>Rua dos vencedores, 1234</p>
-					<p>Bairro da Properidade</p>
+					<p>Bairro da Prosperidade</p>
 					<p>Belém - Pará - Brasil</p>
 				</div>
 			</div>

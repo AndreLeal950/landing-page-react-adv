@@ -2,11 +2,11 @@ const Cta = () => {
 	return (
 		<div className="cta">
 			<h3>
-				Click no botão!
+				Proteja seus Direitos.
 				<br />
-				Estamos prontas para lhe atender.
+				Chame no whatsapp!
 			</h3>
-			<button className="btn">Entre em Contato</button>
+			<button className="btn">Clique aqui para começar</button>
 		</div>
 	);
 };

@@ -1,7 +1,10 @@
+import image from "../assets/mulher-balanca.jpg";
+
 const Footer = () => {
 	return (
 		<footer id="footer">
-			<h3>AdVocate</h3>
+			<img src={image} alt="mulher com balança da justiça" className="img" />
+			<h3>ADvocate</h3>
 			<p>Um escritório voltado para melhor atender os nosso clientes.</p>
 			<p>
 				<span>Entre em contato:</span> teste@email.com

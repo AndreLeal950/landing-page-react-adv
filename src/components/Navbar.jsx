@@ -1,50 +1,40 @@
 import { useState } from "react";
+import image from "../assets/mulher-balanca.jpg";
+import { Link, NavLink } from "react-router-dom";
+import "../../src/NavBar.css";
 
-const Navbar = () => {
-	const [active, setActive] = useState("nav_menu");
-	const [togglerIcon, setTogglerIcon] = useState("nav_toggler");
-
-	const navToggle = () => {
-		active === "nav_menu"
-			? setActive("nav_menu nav_active")
-			: setActive("nav_menu");
-
-		//TogglerIcon
-
-		togglerIcon === "nav_toggler"
-			? setTogglerIcon("nav_toggler toggle")
-			: setTogglerIcon("nav_toggler");
-	};
+const NavBar2 = () => {
+	const [menuOpen, setMenuOpen] = useState(false);
 
 	return (
-		<nav className="nav">
-			<a href="#" className="nav_brand">
-				LOGO
-			</a>
-			<ul className={active}>
-				<li className="nav_item">
-					<a href="#" className="nav_link">
-						Home
-					</a>
+		<nav>
+			<Link to="/" className="logo">
+				<img src={image} alt="mulher com balança da justiça" className="img" />
+				<p>ADvocate</p>
+			</Link>
+			<div
+				className="menu"
+				onClick={() => {
+					setMenuOpen(!menuOpen);
+				}}
+			>
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<ul className={menuOpen ? "open" : ""}>
+				<li>
+					<NavLink to="/">Sobre</NavLink>
 				</li>
-				<li className="nav_item">
-					<a href="#" className="nav_link">
-						About
-					</a>
+				<li>
+					<NavLink to="/">Serviços</NavLink>
 				</li>
-				<li className="nav_item">
-					<a href="#" className="nav_link">
-						Contato
-					</a>
+				<li>
+					<NavLink to="/">Contato</NavLink>
 				</li>
 			</ul>
-			<div className={togglerIcon} onClick={navToggle}>
-				<div className="line1"></div>
-				<div className="line2"></div>
-				<div className="line3"></div>
-			</div>
 		</nav>
 	);
 };
 
-export default Navbar;
+export default NavBar2;

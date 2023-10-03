@@ -1,7 +1,7 @@
 const Benefits = () => {
 	return (
 		<div className="key-benefits">
-			<h2>Qual a questão lhe trouxe até aqui?</h2>
+			<h2>O que te trouxe até aqui?</h2>
 			<div className="benefits">
 				<div className="benefit">
 					<div id="benefit-1" className="benefit-img"></div>

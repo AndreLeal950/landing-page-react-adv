@@ -2,12 +2,25 @@ const Form = () => {
 	return (
 		<div className="event-description">
 			<div id="discleimer">
-				<h2>AdVocate</h2>
-				<p className="about-event">
-					Um evento para revolucionar a sua criatividade.
-				</p>
-				<p>Data do Evento</p>
-				<p className="event-date">Domingo, 01 de Outubro, a partir das 14h</p>
+				<h2>ADvocate</h2>
+				<h3 className="about-event">
+					Nosso Escritório tem Advogadas comprometidas com a justiça e a
+					igualdade.
+				</h3>
+				<p className="event-date">Estamos prontas para ajudar!</p>
+				<>
+					<a
+						href="https://wa.me/551130042222?text=Ví que você veio do nosso site, seja bem vindo(a)! Como podemos te ajudar?"
+						target="_blank"
+						rel="noreferrer"
+					>
+						<input
+							type="submit"
+							value="clique para falarmos no whatsApp"
+							className="btn  button"
+						/>
+					</a>
+				</>
 			</div>
 			<div id="subscription-form">
 				<p>Preencha o fomulário</p>
@@ -41,11 +54,19 @@ const Form = () => {
 					</div>
 					<div className="form-group">
 						<label htmlFor="interest">Qual a sua dúvida?</label>
-						<textarea name="message" id="message" cols="130" rows="10">
-							Digite aqui..
-						</textarea>
+						<textarea
+							name="message"
+							id="message"
+							cols="130"
+							rows="10"
+							placeholder="Digite aqui.."
+						/>
 					</div>
-					<input type="submit" value="Enviar o formulário" className="btn" />
+					<input
+						type="submit"
+						value="Enviar o formulário"
+						className="btn  button"
+					/>
 				</form>
 			</div>
 		</div>

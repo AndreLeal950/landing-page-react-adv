@@ -1,4 +1,4 @@
-import img3 from "../assets/pexels-look-my-ayes.jpg";
+import img3 from "../assets/pexels-look-my-eyes.jpg";
 import img4 from "../assets/pexels-student.jpg";
 import img5 from "../assets/vecteezy_business.jpg";
 
@@ -7,8 +7,8 @@ const Details = () => {
 		<div id="details">
 			<div className="detail" id="detail-1">
 				<img src={img3} alt="sala decorada com tons claros" />
-				<div className="detail-description">
-					<h3>
+				<div className="detail-description ">
+					<h3 className="detailH3">
 						Veja alguns dos serviços que o nosso escritório oferece. Nossas
 						profissionais são especialista em resolver problemas.
 					</h3>
