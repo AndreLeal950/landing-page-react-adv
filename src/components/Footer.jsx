@@ -9,6 +9,19 @@ const Footer = () => {
 			<p>
 				<span>Ou pelo fone:</span> 99-1234-56789
 			</p>
+			<div className="whats">
+				<a
+					href="https://wa.me/551130042222?text=Ví que você veio do nosso site, seja bem vindo(a)! Como podemos te ajudar?"
+					target="_blank"
+					rel="noreferrer"
+				>
+					<img
+						src="./src/assets/whatsApp.png"
+						alt="Fale conosco pelo whatsapp"
+						title="Fale conosco pelo whatsapp"
+					/>
+				</a>
+			</div>
 		</footer>
 	);
 };

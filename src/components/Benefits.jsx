@@ -1,28 +1,19 @@
 const Benefits = () => {
 	return (
 		<div className="key-benefits">
-			<h2>O que você vai aprender:</h2>
+			<h2>Qual a questão lhe trouxe até aqui?</h2>
 			<div className="benefits">
 				<div className="benefit">
 					<div id="benefit-1" className="benefit-img"></div>
-					<p>
-						Alguma coisa muito bacana, que vão fazer a diferença na vida do
-						participante.
-					</p>
+					<p>Causas Trabalhista em geral?</p>
 				</div>
 				<div className="benefit">
 					<div id="benefit-2" className="benefit-img"></div>
-					<p>
-						Alguma coisa muito bacana, que vão fazer a diferença na vida do
-						participante.
-					</p>
+					<p>Acompanhamento de processos já em andamento?</p>
 				</div>
 				<div className="benefit">
 					<div id="benefit-3" className="benefit-img"></div>
-					<p>
-						Alguma coisa muito bacana, que vão fazer a diferença na vida do
-						participante.
-					</p>
+					<p>Algum problema comercial?</p>
 				</div>
 			</div>
 		</div>

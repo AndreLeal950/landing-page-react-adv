@@ -6,6 +6,50 @@
 	--text-tertiary: #5d5d5d;
 }
 
+/*NAVBAR*/
+
+.nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	height: 8vh;
+	background: var(--text-tertiary);
+}
+
+.nav_brand {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.nav_menu {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	gap: 3rem;
+}
+
+.nav_toggler div {
+	width: 2rem;
+	height: 0.1rem;
+	margin: 0.5rem;
+	background: var(--primary);
+	transition: 0.2s ease-in;
+}
+
+.nav_toggler {
+	display: none;
+	cursor: pointer;
+}
+
+.nav li {
+	list-style: none;
+}
+
+.nav a {
+	text-decoration: none;
+	color: var(--primary);
+}
+
 .event-description {
 	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
 		url("./assets/vecteezy_justice.jpg");
@@ -252,7 +296,6 @@
 
 #footer {
 	text-align: center;
-	color: var(--secundary);
 	height: 250px;
 	display: flex;
 	flex-direction: column;
@@ -261,15 +304,12 @@
 #footer h3 {
 	font-size: 1.8em;
 	margin-bottom: 0.5em;
+	color: var(--secundary);
 }
-#footer img {
-	margin: 0.2em;
-	margin-bottom: -0.2em;
-	width: 60px;
-	height: 60px;
-	border-radius: 50%;
-	background-size: cover;
-	background-color: var(--secundary);
+
+#footer p,
+span {
+	color: var(--secundary);
 }
 
 #footer p:nth-child(2) {
@@ -280,8 +320,49 @@
 	font-weight: bold;
 }
 
+.whats {
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
+	z-index: 999;
+}
+
+.whats img {
+	width: 8em;
+}
+
 /*Endpoin 768*/
 @media (max-width: 780px) {
+	.nav_toggler {
+		display: block;
+	}
+
+	.nav_menu {
+		position: fixed;
+		top: 7vh;
+		right: 0;
+		width: 35%;
+		height: 93vh;
+		background: var(--text-tertiary);
+		flex-direction: column;
+		transform: translateX(100%);
+		transition: 0.25s ease-in;
+	}
+
+	.nav_active {
+		transform: translateX(0);
+	}
+
+	.toggle .line1 {
+		transform: rotate(-50deg) translate(-5px, 9px);
+	}
+	.toggle .line2 {
+		opacity: 0;
+	}
+	.toggle .line3 {
+		transform: rotate(50deg) translate(-5px, -9px);
+	}
+
 	#discleimer h2 {
 		font-size: 2.5em;
 	}

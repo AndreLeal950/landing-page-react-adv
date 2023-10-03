@@ -6,17 +6,21 @@ import Location from "./components/Location";
 import Details from "./components/Details";
 import Cta from "./components/Cta";
 import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
 
 function App() {
 	return (
-		<body>
-			<Form />
-			<Benefits />
-			<Location />
-			<Details />
-			<Cta />
-			<Footer />
-		</body>
+		<>
+			<body>
+				<Navbar />
+				<Form />
+				<Benefits />
+				<Location />
+				<Details />
+				<Cta />
+				<Footer />
+			</body>
+		</>
 	);
 }
 
