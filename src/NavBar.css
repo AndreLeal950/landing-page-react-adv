@@ -15,8 +15,6 @@ nav {
 	justify-content: space-between;
 	align-items: center;
 	background-color: var(--secundary);
-	position: sticky;
-	top: 0;
 }
 
 nav .logo {
@@ -31,7 +29,7 @@ nav ul li {
 	list-style: none;
 }
 nav ul li a {
-	display: block;
+	display: flex;
 	text-decoration: none;
 	color: var(--text-color);
 	padding: 0.5rem;
