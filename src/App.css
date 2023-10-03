@@ -682,5 +682,6 @@ span {
 
 	.whats img {
 		width: 8em;
+		background-image: url("./assets/whatsApp.png");
 	}
 }
