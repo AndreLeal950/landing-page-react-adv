@@ -8,54 +8,6 @@
 
 /*NAVBAR*/
 
-.nav {
-	display: flex;
-	align-items: center;
-	justify-content: space-around;
-	height: 11vh;
-	background: var(--text-tertiary);
-}
-
-.nav_brand {
-	text-transform: uppercase;
-	font-weight: bold;
-}
-
-.nav_menu {
-	display: flex;
-	align-items: center;
-	justify-content: space-around;
-	gap: 3rem;
-}
-
-.nav_toggler div {
-	width: 2rem;
-	height: 0.1rem;
-	margin: 0.5rem;
-	background: var(--primary);
-	transition: 0.2s ease-in;
-}
-
-.nav img {
-	max-width: 5em;
-	background: var(--primary);
-	border-radius: 50%;
-}
-
-.nav_toggler {
-	display: none;
-	cursor: pointer;
-}
-
-.nav li {
-	list-style: none;
-}
-
-.nav a {
-	text-decoration: none;
-	color: var(--primary);
-}
-
 .event-description {
 	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
 		url("./assets/vecteezy_justice.jpg");
@@ -366,21 +318,6 @@ span {
 
 /*Endpoin 780*/
 @media (max-width: 780px) {
-	.nav {
-		display: flex;
-		align-items: center;
-		justify-content: space-around;
-		height: 11vh;
-		background: var(--text-tertiary);
-	}
-
-	.nav_menu {
-		display: flex;
-		align-items: center;
-		justify-content: space-around;
-		gap: 3rem;
-	}
-
 	#subscription-form {
 		background-color: var(--secundary);
 		margin: 2em;
@@ -545,45 +482,6 @@ span {
 /*Mobile*/
 
 @media (max-width: 500px) {
-	.nav {
-		display: flex;
-		align-items: center;
-		justify-content: space-around;
-		height: 11vh;
-		background: var(--text-tertiary);
-	}
-
-	.nav_brand {
-		text-transform: uppercase;
-		font-weight: bold;
-	}
-
-	.nav_menu {
-		display: none;
-		align-items: center;
-		justify-content: space-around;
-		gap: 3rem;
-	}
-
-	.nav_toggler div {
-		width: 2rem;
-		height: 0.1rem;
-		margin: 0.5rem;
-		background: var(--primary);
-		transition: 0.2s ease-in;
-	}
-
-	.nav_toggler {
-		display: block;
-		cursor: pointer;
-	}
-
-	.nav img {
-		max-width: 4em;
-		background: var(--primary);
-		border-radius: 50%;
-	}
-
 	.event-description {
 		background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
 			url("./assets/vecteezy_justice.jpg");

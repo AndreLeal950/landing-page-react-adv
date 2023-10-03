@@ -60,6 +60,15 @@ nav .menu span {
 	border-radius: 0.2rem;
 }
 
+.logo .img {
+	max-width: 4em;
+	margin-left: 20%;
+}
+.logo p {
+	font-size: 0.8em;
+	margin-left: 20%;
+}
+
 @media (max-width: 480px) {
 	nav .menu {
 		display: flex;
