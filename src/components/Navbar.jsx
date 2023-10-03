@@ -3,7 +3,7 @@ import image from "../assets/mulher-balanca.jpg";
 import { Link, NavLink } from "react-router-dom";
 import "../../src/NavBar.css";
 
-const NavBar2 = () => {
+const NavBar = () => {
 	const [menuOpen, setMenuOpen] = useState(false);
 
 	return (
@@ -37,4 +37,4 @@ const NavBar2 = () => {
 	);
 };
 
-export default NavBar2;
+export default NavBar;

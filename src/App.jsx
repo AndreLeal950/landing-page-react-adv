@@ -6,7 +6,7 @@ import Location from "./components/Location";
 import Details from "./components/Details";
 import Cta from "./components/Cta";
 import Footer from "./components/Footer";
-import NavBar from "./components/NavBar";
+import NavBar from "./components/Navbar";
 
 function App() {
 	return (
