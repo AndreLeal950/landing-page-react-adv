@@ -5,7 +5,7 @@ const About = () => {
 		<div className="container">
 			<div className="container-text">
 				<h1 className="title">Sobre [Nome do Escritório ]</h1>
-				<h3>Bem-vindo ao [Nome do Escritório] :</h3>
+				<h3>Bem-vindo ao [Nome do Escritório]:</h3>
 				<p>
 					Bem-vindo ao [Nome do Escritório de Advocacia], onde a experiência
 					jurídica encontra soluções eficazes. Somos um escritório de advocacia
@@ -58,11 +58,11 @@ const About = () => {
 				</p>
 				<h3>Nossa Abordagem : </h3>
 				<p>
-					No [Nome do Escritório de Advocacia], valorizamos relacionamentos
-					sólidos com nossos clientes. Entendemos as particularidades de seus
-					negócios e trabalhamos de forma estratégica para alcançar soluções
-					eficazes. Nossa equipe de advogados experientes está comprometida com
-					a excelência, integridade e respeito pelo cliente.
+					No [Nome do Escritório], valorizamos relacionamentos sólidos com
+					nossos clientes. Entendemos as particularidades de seus negócios e
+					trabalhamos de forma estratégica para alcançar soluções eficazes.
+					Nossa equipe de advogados experientes está comprometida com a
+					excelência, integridade e respeito pelo cliente.
 				</p>
 
 				<a href="/">
