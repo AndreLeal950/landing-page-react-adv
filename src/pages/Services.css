@@ -1,0 +1,45 @@
+:root {
+	--primary: #eb1ccc;
+	--secundary: #95989a;
+	--text-color: #fff;
+	--text-secondary: #000;
+	--text-tertiary: #5d5d5d;
+}
+
+.container {
+	background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+		url("../assets/vecteezy_justice.jpg");
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: var(--text-color);
+	padding: 1.5em;
+}
+
+.container-text {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: auto;
+	height: auto;
+	line-height: 1.5em;
+	font-size: 1.2em;
+}
+.container-text h1 {
+	margin-bottom: 1em;
+}
+.container-text h3,
+h1 {
+	color: var(--primary);
+}
+
+.container-text p {
+	margin-top: 1em;
+}
+.container-text input {
+	margin-top: 1.5em;
+}
