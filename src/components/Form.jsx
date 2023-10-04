@@ -16,7 +16,7 @@ const Form = () => {
 					>
 						<input
 							type="submit"
-							value="clique para falarmos no whatsApp"
+							value="clique para whatsApp"
 							className="btn  button"
 						/>
 					</a>
