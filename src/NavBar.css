@@ -21,6 +21,14 @@ nav .logo {
 	margin: 1rem;
 	color: var(--text-color);
 }
+.logo .img {
+	max-width: 3em;
+	margin-left: 40%;
+}
+.logo p {
+	font-size: 0.8em;
+	margin-left: 20%;
+}
 
 nav ul {
 	display: flex;
@@ -29,13 +37,14 @@ nav ul li {
 	list-style: none;
 }
 nav ul li a {
-	display: flex;
+	display: block;
 	text-decoration: none;
 	color: var(--text-color);
 	padding: 0.5rem;
 	margin: 0 0.5rem;
 	border-radius: 0.5rem;
 }
+
 nav ul li a:hover {
 	background-color: var(--primary);
 }
@@ -59,38 +68,36 @@ nav .menu span {
 }
 
 .logo .img {
-	max-width: 4em;
-	margin-left: 20%;
+	max-width: 3em;
+	margin-left: 40%;
 }
 .logo p {
 	font-size: 0.8em;
 	margin-left: 20%;
 }
 
-@media (max-width: 480px) {
+/*MOBILE*/
+
+@media (max-width: 500px) {
 	nav .menu {
 		display: flex;
-		margin: 1em;
 	}
 	nav {
 		flex-direction: column;
-		align-items: start;
+		align-items: center;
 	}
 	nav ul {
 		display: none;
 		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		width: 100%;
+		width: 50%;
 		margin-bottom: 0.25rem;
 	}
-
 	nav ul.open {
 		display: flex;
 	}
 
 	nav ul li {
-		width: 50%;
+		width: 100%;
 		text-align: center;
 	}
 	nav ul li a {
@@ -98,11 +105,10 @@ nav .menu span {
 	}
 
 	.logo .img {
-		max-width: 4em;
-		margin-left: 20%;
+		max-width: 3em;
+		margin-left: 40%;
 	}
 	.logo p {
 		font-size: 0.8em;
-		margin-left: 20%;
 	}
 }

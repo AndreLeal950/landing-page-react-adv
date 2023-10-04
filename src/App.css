@@ -13,7 +13,7 @@
 		url("./assets/vecteezy_justice.jpg");
 	background-position: center;
 	background-size: cover;
-	height: 90vh;
+	height: 100vh;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -62,17 +62,19 @@
 #subscription-form {
 	background-color: var(--secundary);
 	padding: 2em;
-	max-width: 30%;
-	height: 95%;
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+	width: 30%;
+	height: 90%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
 }
 #subscription-form p {
-	font-size: 1.8em;
+	font-size: 1.5em;
 	color: var(--text-secondary);
-	margin-bottom: 1em;
+	margin-top: 1em;
 	font-weight: 500;
 }
 
@@ -112,6 +114,7 @@
 	width: 100%;
 	border: none;
 	padding: 12px;
+	margin-bottom: 1em;
 	cursor: pointer;
 	opacity: 0.8;
 	border-radius: 5px;
@@ -318,9 +321,224 @@ span {
 }
 
 .whats #img {
-	width: 7rem;
-	height: 7rem;
-	color: var(--primary);
+	width: 6rem;
+	height: 6rem;
+	color: #34af23;
+}
+
+/*Mobile*/
+
+@media (max-width: 500px) {
+	.event-description {
+		background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+			url("./assets/vecteezy_justice.jpg");
+		background-position: center;
+		background-size: cover;
+		height: 100%;
+		width: 100%;
+		flex-direction: column;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: var(--text-color);
+	}
+
+	.btn {
+		opacity: 1;
+		font-weight: bold;
+	}
+
+	#event-description {
+		flex-direction: column;
+	}
+	#discleimer .event-date {
+		margin-bottom: 1em;
+		font-size: 1.3em;
+		margin-left: 1.2em;
+	}
+
+	#discleimer h2 {
+		font-size: 2em;
+		margin-left: 0.5em;
+	}
+
+	#discleimer h2,
+	#discleimer .event-date {
+		color: var(--primary);
+		max-width: 320em;
+		margin-top: 1em;
+	}
+
+	#discleimer .button {
+		width: 21em;
+		margin-bottom: 1em;
+		margin-left: 1.2em;
+		font-size: 0.9em;
+	}
+
+	#discleimer .about-event {
+		font-size: 1.2em;
+		max-width: 320px;
+		margin-bottom: 1em;
+		margin-left: 1em;
+	}
+
+	#subscription-form {
+		width: 100%;
+		margin-bottom: 2em;
+	}
+
+	#subscription-form .button {
+		max-width: 23em;
+		font-size: 0.8em;
+	}
+
+	.form-group input,
+	.form-group textarea {
+		padding: 6px 10px;
+		border-radius: 5px;
+		max-width: 100%;
+		border: none;
+		outline: none;
+	}
+
+	/*Benefits section*/
+	.key-benefits h2 {
+		color: var(--primary);
+		font-weight: bold;
+		font-size: 1.3em;
+		text-transform: uppercase;
+	}
+
+	.benefits {
+		flex-direction: column;
+		align-items: center;
+		width: auto;
+		padding: 2em;
+	}
+	.benefit {
+		max-width: 100%;
+		margin-bottom: 2em;
+	}
+
+	.benefit .benefit-img {
+		width: 200px;
+		height: 200px;
+		border-radius: 50%;
+		background-size: cover;
+		background-position: center;
+		margin-bottom: 1em;
+	}
+
+	/*Event Location*/
+	#location {
+		flex-direction: column;
+		height: auto;
+		text-align: center;
+		padding: 2em 0;
+	}
+	#address {
+		order: 2;
+		flex-direction: column;
+		max-width: 100%;
+	}
+
+	#address-details {
+		font-size: 1em;
+	}
+
+	#address i {
+		margin: 0.3em 0;
+	}
+
+	#about-location {
+		max-width: 100%;
+	}
+	#about-location h3 {
+		display: none;
+	}
+	.geolocation {
+		font-size: 2.8em;
+	}
+
+	#about-location p {
+		display: none;
+	}
+
+	/*Event details container*/
+
+	.detail {
+		flex-direction: column;
+		margin-bottom: 0.5em;
+		gap: 0;
+	}
+
+	#detail-1 h3 {
+		font-size: 1.3em;
+		font-weight: 600;
+	}
+
+	.detail img {
+		width: 100%;
+		margin: 2em 0;
+	}
+
+	#detail-1 img {
+		display: none;
+	}
+	#detail-3 img {
+		order: 2;
+	}
+	#detail-3 .detail-description {
+		order: 1;
+	}
+	#detail-1 .detail-description h3 {
+		font-size: 2em;
+	}
+
+	/*Call to A ction Section*/
+	.cta {
+		text-align: center;
+		font-size: 0.7em;
+		color: var(--text-color);
+	}
+
+	.cta .btn {
+		width: 45%;
+		font-size: 0.8em;
+	}
+
+	#footer {
+		text-align: center;
+		height: 250px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		padding: 1em;
+	}
+	#footer h3 {
+		font-size: 1.8em;
+		margin-bottom: 0.5em;
+		color: var(--secundary);
+	}
+
+	#footer .img {
+		max-width: 10em;
+		margin-left: 50%;
+	}
+
+	.whats {
+		position: fixed;
+		bottom: 50px;
+		right: 50px;
+		z-index: 999;
+	}
+
+	.whats #img {
+		width: 5rem;
+		height: 5rem;
+		color: #34af23;
+	}
 }
 
 /*Endpoin 780*/
@@ -473,201 +691,6 @@ span {
 		width: 40%;
 	}
 
-	.whats {
-		position: fixed;
-		bottom: 90px;
-		right: 60px;
-		margin-right: 70%;
-		z-index: 999;
-	}
-
-	.whats img {
-		width: 9em;
-	}
-}
-
-/*Mobile*/
-
-@media (max-width: 500px) {
-	.event-description {
-		background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-			url("./assets/vecteezy_justice.jpg");
-		background-position: center;
-		background-size: cover;
-		height: 100%;
-		width: 100%;
-		flex-direction: column;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		color: var(--text-color);
-	}
-
-	.btn {
-		opacity: 1;
-		font-weight: bold;
-	}
-
-	#event-description {
-		flex-direction: column;
-	}
-	#discleimer .event-date {
-		margin-bottom: 1em;
-		font-size: 1.3em;
-		margin-left: 1.2em;
-	}
-
-	#discleimer h2 {
-		font-size: 2em;
-		margin-left: 0.5em;
-	}
-
-	#discleimer h2,
-	#discleimer .event-date {
-		color: var(--primary);
-		max-width: 320em;
-	}
-
-	#discleimer .button {
-		width: 21em;
-		margin-bottom: 1em;
-		margin-left: 1.2em;
-		font-size: 0.9em;
-	}
-
-	#discleimer .about-event {
-		font-size: 1.2em;
-		max-width: 320px;
-		margin-bottom: 1em;
-		margin-left: 1em;
-	}
-
-	#subscription-form {
-		width: 100%;
-		margin-bottom: 2em;
-	}
-
-	#subscription-form .button {
-		max-width: 18em;
-		font-size: 0.8em;
-	}
-
-	.form-group input,
-	.form-group textarea {
-		padding: 6px 10px;
-		border-radius: 5px;
-		max-width: 100%;
-		border: none;
-		outline: none;
-	}
-
-	/*Benefits section*/
-	.benefits {
-		flex-direction: column;
-		align-items: center;
-		width: auto;
-		padding: 2em;
-	}
-	.benefit {
-		max-width: 100%;
-		margin-bottom: 2em;
-	}
-
-	.benefit .benefit-img {
-		width: 200px;
-		height: 200px;
-		border-radius: 50%;
-		background-size: cover;
-		background-position: center;
-		margin-bottom: 1em;
-	}
-
-	/*Event Location*/
-	#location {
-		flex-direction: column;
-		height: auto;
-		text-align: center;
-		padding: 2em 0;
-	}
-	#address {
-		order: 2;
-		flex-direction: column;
-		max-width: 100%;
-	}
-
-	#address-details {
-		font-size: 1em;
-	}
-
-	#address i {
-		margin: 0.3em 0;
-	}
-
-	#about-location {
-		max-width: 100%;
-	}
-	#about-location h3 {
-		display: none;
-	}
-	.geolocation {
-		font-size: 2.8em;
-	}
-
-	#about-location p {
-		display: none;
-	}
-
-	/*Event details container*/
-
-	.detail {
-		flex-direction: column;
-		margin-bottom: 0.5em;
-		gap: 0;
-	}
-
-	#detail-1 h3 {
-		font-size: 1.3em;
-		font-weight: 600;
-	}
-
-	.detail img {
-		width: 100%;
-		margin: 2em 0;
-	}
-
-	#detail-1 img {
-		display: none;
-	}
-	#detail-3 img {
-		order: 2;
-	}
-	#detail-3 .detail-description {
-		order: 1;
-	}
-	#detail-1 .detail-description h3 {
-		font-size: 2em;
-	}
-
-	/*Call to A ction Section*/
-	.cta {
-		text-align: center;
-		font-size: 0.7em;
-		color: var(--text-color);
-	}
-
-	.cta .btn {
-		width: 45%;
-		font-size: 0.8em;
-	}
-
-	#footer {
-		text-align: center;
-		height: 250px;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		padding: 1em;
-	}
 	#footer h3 {
 		font-size: 1.8em;
 		margin-bottom: 0.5em;
@@ -675,19 +698,25 @@ span {
 	}
 
 	#footer .img {
-		max-width: 5em;
+		max-width: 6em;
 		margin-left: 45%;
 	}
 
 	.whats {
 		position: fixed;
-		bottom: 70px;
-		right: 40px;
-		margin-right: 60%;
+		bottom: 50px;
+		right: 50px;
 		z-index: 999;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: row;
+		font-size: 1.5em;
 	}
 
-	.whats .img {
-		width: 10em;
+	.whats #img {
+		width: 5rem;
+		height: 5rem;
+		color: #34af23;
 	}
 }

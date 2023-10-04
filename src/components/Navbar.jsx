@@ -1,6 +1,6 @@
 import { useState } from "react";
-import image from "../assets/mulher-balanca.jpg";
-import { Link, NavLink } from "react-router-dom";
+// import image from "../assets/mulher-balanca.jpg";
+import { NavLink } from "react-router-dom";
 import "../../src/NavBar.css";
 
 const NavBar = () => {
@@ -8,10 +8,6 @@ const NavBar = () => {
 
 	return (
 		<nav>
-			<Link to="/" className="logo">
-				<img src={image} alt="mulher com balança da justiça" className="img" />
-				<p>ADvocate</p>
-			</Link>
 			<div
 				className="menu"
 				onClick={() => {
