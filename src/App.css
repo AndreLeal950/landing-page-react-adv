@@ -127,7 +127,9 @@
 	background-color: var(--secundary);
 	text-align: center;
 	padding: 2em;
-	font-weight: 500;
+	font-weight: bold;
+	color: var(--primary);
+	text-transform: uppercase;
 }
 
 .benefits {
