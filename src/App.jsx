@@ -11,7 +11,7 @@ import NavBar from "./components/Navbar";
 function App() {
 	return (
 		<>
-			<body>
+			<div className="App">
 				<NavBar />
 				<Form />
 				<Benefits />
@@ -19,7 +19,7 @@ function App() {
 				<Details />
 				<Cta />
 				<Footer />
-			</body>
+			</div>
 		</>
 	);
 }

@@ -20,13 +20,13 @@ const NavBar = () => {
 			</div>
 			<ul className={menuOpen ? "open" : ""}>
 				<li>
-					<NavLink to="/">Sobre</NavLink>
+					<NavLink to="/about">Sobre</NavLink>
 				</li>
 				<li>
-					<NavLink to="/">Serviços</NavLink>
+					<NavLink to="/contact">Contato</NavLink>
 				</li>
 				<li>
-					<NavLink to="/">Contato</NavLink>
+					<NavLink to="/services">Serviços</NavLink>
 				</li>
 			</ul>
 		</nav>
