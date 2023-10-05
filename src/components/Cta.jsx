@@ -6,7 +6,7 @@ const Cta = () => {
 				<br />
 				Chame no whatsapp!
 			</h3>
-			<button className="btn">Clique aqui para começar</button>
+			<button className="btn">Clique para começar</button>
 		</div>
 	);
 };
